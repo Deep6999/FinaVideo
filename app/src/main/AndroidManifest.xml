@@ -12,22 +12,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity2"></activity>
         <activity
             android:name=".Fullscreen"
-            android:theme="@style/Theme.Design.NoActionBar"
-            android:screenOrientation="landscape" />
-        <activity android:name=".UploadHere" android:screenOrientation="portrait"/>
-        <activity android:name=".test" android:screenOrientation="portrait"/>
-        <activity android:name=".SignUp" android:screenOrientation="portrait">
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".UploadHere"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignIn" android:screenOrientation="portrait"/>
-        <activity android:name=".Profile" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
