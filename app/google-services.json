@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "327855853361",
+    "project_id": "video-c25f8",
+    "storage_bucket": "video-c25f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327855853361:android:b20bad41570fa33829aa10",
+        "android_client_info": {
+          "package_name": "com.heloo.finalvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327855853361-0b66onk754o7nlf879td53dhe0u924vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heloo.finalvideo",
+            "certificate_hash": "5d655ea809ca27a00e234cd97cfecf541f57499c"
+          }
+        },
+        {
+          "client_id": "327855853361-hk2cp0ingu5hn7op7ailrg4mjvu1b5pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-E0iifu4ZOu_lSVc81n-bx7NdDzcy_SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327855853361-hk2cp0ingu5hn7op7ailrg4mjvu1b5pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

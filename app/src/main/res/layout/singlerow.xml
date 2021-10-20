@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/linearok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thubnail"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/dow" />
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/exoplayerview"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="3dp"
+            android:visibility="visible"
+            app:resize_mode="fill"
+            app:use_controller="true">
+
+        </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+        <TextView
+            android:id="@+id/vtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Title"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/UploadedBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Uploaded By" />
+
+            <TextView
+                android:id="@+id/Views"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Views" />
+
+            <TextView
+                android:id="@+id/DateInYearsMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date In Years " />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
